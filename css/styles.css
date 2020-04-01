@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+  .column {
+    width: 320px;
+    float: left;
+    padding: 20px;
+  }
+  body {
+    background-color: lightgray;
+    color: darkgreen;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: lightsteelblue;
+    color: rgb(3, 3, 65);
+  }   
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: navy;
+    color: white;
+  }
+}
